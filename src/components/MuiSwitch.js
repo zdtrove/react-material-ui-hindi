@@ -1,14 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {
     makeStyles,
     Container,
     Paper,
     Box,
     Switch,
-    FormControlLabel
+    FormControlLabel,
+    Typography
 } from '@material-ui/core'
-import { useState } from 'react'
-import { Typography } from '@material-ui/core'
 
 const useStyles = makeStyles(theme => ({
     root: {

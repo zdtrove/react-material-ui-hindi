@@ -1,10 +1,10 @@
-import MuiSwitch from './components/MuiSwitch';
+import DrawerResponsive from './components/DrawerResponsive';
 import './styles/App.css';
 
 function App() {
 
     return (
-        <MuiSwitch />
+        <DrawerResponsive />
     );
 }
 
