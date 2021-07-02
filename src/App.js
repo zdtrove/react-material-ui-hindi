@@ -1,10 +1,10 @@
-import DrawerResponsive from './components/DrawerResponsive';
+import MuiDialog from './components/MuiDialog';
 import './styles/App.css';
 
 function App() {
 
     return (
-        <DrawerResponsive />
+        <MuiDialog />
     );
 }
 
