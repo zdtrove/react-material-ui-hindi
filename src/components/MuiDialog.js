@@ -30,6 +30,9 @@ const MuiDialog = () => {
                 onEnter={() => console.log("on enter")}
                 onEntering={() => console.log("on entering")}
                 onEntered={() => console.log("on entered")}
+                onExit={() => console.log("on exit")}
+                onExiting={() => console.log("on exiting")}
+                onExited={() => console.log("on exited")}
             >
                 <DialogTitle>Dialog Title</DialogTitle>
                 <DialogContent dividers>

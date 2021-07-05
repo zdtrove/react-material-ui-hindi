@@ -1,10 +1,10 @@
-import MuiDialog from './components/MuiDialog';
+import MuiStepper from './components/MuiStepper';
 import './styles/App.css';
 
 function App() {
 
     return (
-        <MuiDialog />
+        <MuiStepper />
     );
 }
 
